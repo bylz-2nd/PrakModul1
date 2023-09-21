@@ -1,0 +1,38 @@
+/* Bootstrap Clone */
+.bg-purple {
+  background-color: #7533f9 !important;
+}
+
+#main a {
+  color: gray;
+}
+
+#main a:hover {
+  color: rgb(73, 73, 73);
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: var(--bs-primary) !important;
+}
+
+/* Personal */
+#herowelcome {
+  background: url("../images/vhBG.png");
+  height: 100vh;
+  width: 100%;
+}
+
+#herowelcome .konten-hero {
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
